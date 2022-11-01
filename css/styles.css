@@ -24,7 +24,7 @@ ul {
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,1923;
+    line-height: 1.1923;
     letter-spacing: 0.03em;
 }
 .logo-header{
@@ -34,7 +34,7 @@ ul {
     color: #2196F3;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,1428;
+    line-height: 1.1428;
     letter-spacing: 0.02em;
 }
 .link:hover{
@@ -45,14 +45,14 @@ ul {
     color: #212121;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,1428;
+    line-height: 1.1428;
     letter-spacing: 0.02em; 
 }
 .auth-nav{
     list-style: none;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,1428;
+    line-height: 1.1428;
     letter-spacing: 0.02em; 
 }
 
@@ -62,7 +62,7 @@ ul {
     background-color: #2F303A;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,3636;
+    line-height: 1.3636;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -70,19 +70,40 @@ ul {
 .button{
     color: #FFFFFF;
     background-color: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 /* Section */
 .section-title{
     color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1666;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* Features */
 .feature-list .title{
     color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 .feature-list .text{
     color:#757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
 }
 /* Section title */
 .section-title{
@@ -92,7 +113,7 @@ ul {
     color: #212121;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,1875;
+    line-height: 1.1875;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -100,7 +121,7 @@ ul {
     color: #757575;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,1875;
+    line-height: 1.1875;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -115,7 +136,7 @@ ul {
     color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,7142;
+    line-height: 1.7142;
     letter-spacing: 0.03em;
     text-decoration: none;
     font-style: normal;
@@ -123,36 +144,41 @@ ul {
 .mail{
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,7142;
+    line-height: 1.7142;
     letter-spacing: 0.03em;
     color: #FFFFFF99;
     text-decoration: none;
     font-style: normal;
 }
-.phone{
+.phone:{
+    color: #757575;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1,7142;
+    line-height: 1.7142;
     letter-spacing: 0.03em;
-    color: #FFFFFF99;
     text-decoration: none;
     font-style: normal;
+}
+.phone:hover{
+    color: #2196F3;
 }
 
 /*           Портфоліо         */
 .button-link{
+    font-family: inherit;
     background-color: #2196F3;
     color: #FFFFFF;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,625;
+    line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .button-nav{
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,625;
+    line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -171,7 +197,7 @@ ul {
 .content{
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,875;
+    line-height: 1.875;
     letter-spacing: 0.03em;
     color: #757575;
 }
