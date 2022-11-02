@@ -26,6 +26,7 @@ ul {
     font-size: 26px;
     line-height: 1.1923;
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .logo-header{
     color:#000000;
@@ -36,17 +37,21 @@ ul {
     font-size: 14px;
     line-height: 1.1428;
     letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.link{
+    text-decoration: none;
 }
 .link:hover{
-    color: #2196F3;
-    text-decoration: none;
+    color: inherit;
 }
 .link-nav{
     color: #212121;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428;
-    letter-spacing: 0.02em; 
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .auth-nav{
     list-style: none;
@@ -70,6 +75,7 @@ ul {
 .button{
     color: #FFFFFF;
     background-color: #2196F3;
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
@@ -142,25 +148,27 @@ ul {
     font-style: normal;
 }
 .mail{
+    color: #FFFFFF99;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
-    color: #FFFFFF99;
     text-decoration: none;
     font-style: normal;
 }
-.phone:{
+.phone{
     color: #757575;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
-    text-decoration: none;
     font-style: normal;
 }
+.phone{
+    text-decoration: none;
+}
 .phone:hover{
-    color: #2196F3;
+    color: inherit;
 }
 
 /*           Портфоліо         */
@@ -188,14 +196,12 @@ ul {
 /* Section */
 
 .sub-title{
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
 }
 .content{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
