@@ -31,19 +31,25 @@ ul {
 .logo-header{
     color:#000000;
 }
-.site-nav .link.current:hover{
+.link-current{
+    color: #212121;
+}
+.site-nav .link-current{
+    text-decoration: none;
+}
+.link-current:hover, 
+.link-current:focus{
     color: #2196F3;
+}
+.link-current{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428;
     letter-spacing: 0.02em;
-    text-decoration: none;
 }
-.link{
-    text-decoration: none;
-}
-.link:hover{
-    color: inherit;
+.link-nav:hover,
+.link-nav:focus{
+    color: #2196F3;
 }
 .link-nav{
     color: #212121;
@@ -53,12 +59,33 @@ ul {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-.auth-nav{
-    list-style: none;
+.link{
+    text-decoration: none;
+}
+.link{
+    color:#757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.3333;
+    letter-spacing: 0.02em;
+}
+.link:hover,
+.link:focus{
+    color: #2196F3;
+}
+.phone-number{
+    text-decoration: none;
+}
+.phone-number{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428;
-    letter-spacing: 0.02em; 
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.phone-number:hover,
+.phone-number:focus{
+    color: #2196F3;
 }
 
 /* Hero */
@@ -83,6 +110,7 @@ ul {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 /* Section */
@@ -134,6 +162,7 @@ ul {
 /* Footer */
 .footer{
     background-color: #2F303A;
+    font-style: none;
 }
 .footer .logo-header{
     color: #FFFFFF;
@@ -142,34 +171,40 @@ ul {
     color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
+    font-style: normal;
     line-height: 1.7142;
     letter-spacing: 0.03em;
     text-decoration: none;
-    font-style: normal;
+}
+.mail:hover,
+.mail:focus{
+    color: #2196F3;
 }
 .mail{
+    font-style: none;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
     color: #FFFFFF99;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7142;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-    font-style: normal;
-}
-.phone{
-    color: #757575;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7142;
-    letter-spacing: 0.03em;
-    font-style: normal;
-}
-.phone{
     text-decoration: none;
 }
-.phone:hover{
-    color: inherit;
+.phone:hover,
+.phone:focus{
+    color: #2196F3;
 }
+.phone{
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
+    color: #FFFFFF99;
+    text-decoration: none;
+}
+
+
 
 /*           Портфоліо         */
 .button-link{
@@ -181,6 +216,7 @@ ul {
     line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 .button-nav{
     font-family: inherit;
@@ -191,6 +227,7 @@ ul {
     letter-spacing: 0.03em;
     color: #212121;
     background-color: #FFFFFF;
+    cursor: pointer;
 }
 
 /* Section */
